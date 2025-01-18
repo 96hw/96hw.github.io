@@ -1,7 +1,7 @@
-#about me
+# about me
 
 **kat bullard :)**
 *katherineb@my.waketech.edu*
 
--this is my school github account
--this repository will hold various assignments for **CTI-110**
+- this is my school github account
+- this repository will hold various assignments for **CTI-110**
