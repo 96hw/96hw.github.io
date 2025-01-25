@@ -1,15 +1,1 @@
-```mermaid
-flowchart TD
-    A([Start]) --> B["Generate a random number within the specified range"]
-    B --> C["Prompt user for a guess"]
-    C --> D["Check if input is valid (numeric and within range)"]
-    D -- "Invalid input" --> E["Display error message"]
-    E --> C
-    D -- "Valid input" --> F["Compare guess to the target number"]
-    F -- "Guess too high" --> G["Inform user the guess is too high"]
-    G --> C
-    F -- "Guess too low" --> H["Inform user the guess is too low"]
-    H --> C
-    F -- "Correct guess" --> I["Congratulate the user"]
-    I --> J([End])
-```
+
