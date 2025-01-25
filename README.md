@@ -2,8 +2,7 @@
 
 
 
-⋆ ˚｡⋆୨୧˚**kat bullard**
-*(katherineb@my.waketech.edu)*
+### ⋆ ˚｡⋆୨୧˚**kat bullard** *(katherineb@my.waketech.edu)*
 
 >this is my school github account
 
