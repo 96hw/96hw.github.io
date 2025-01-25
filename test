@@ -1,0 +1,15 @@
+```mermaid
+flowchart TD
+    Start([Start]) --> Init["pick a number between 1-100"]
+    Init --> Input["tell the user to guess"]
+    Input --> Validate["see if they guessed correctly (a number thats in range)"]
+    Validate -- "invalid input" --> Error["show error message"]
+    Error --> Input
+    Validate -- "Valid input" --> Compare["Compare guess to the target number"]
+    Compare -- "Guess too high" --> High["Inform user the guess is too high"]
+    High --> Input
+    Compare -- "Guess too low" --> Low["Inform user the guess is too low"]
+    Low --> Input
+    Compare -- "Correct guess" --> Correct["Congratulate the user"]
+    Correct --> End([End])
+```
